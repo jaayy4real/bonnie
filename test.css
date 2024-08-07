@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border: 1px solid #dcdfe3;
+    border-radius: 8px;
+    width: 360px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-header h1 {
+    color: #1877f2;
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.login-form img.logo {
+    width: 60px;
+    height: 75px;
+    margin: 20px 0;
+}
+
+.login-form p {
+    font-size: 14px;
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #165dba;
+}
+
+.forgotten-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgotten-password:hover {
+    text-decoration: underline;
+}
+
+.create-account a {
+    display: inline-block;
+    margin: 10px 10px 0;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+.help-centre {
+    display: block;
+    margin: 20px 0 0;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.help-centre:hover {
+    text-decoration: underline;
+}
